@@ -14,3 +14,5 @@ Called the GitHub REST API from Python to read my repo and create an issue.
 ## Week 6: IP Plan Check Pipeline 
 **What I built:** A Python checker for our IP address plan, packaged in Docker, run by GitHub Actions on every push, that opens a GitHub issue through the API when the plan has errors.
 **Repo:** https://github.com/NateSD2/ip-plan-check
+## Week 8: OSPF by Hand, Then Automated 
+What I did: configured OSPF manually, ran a provided playbook that automated it, and wrote my own playbook to back up the configs. What I learned is how Ansible can automate network configurations on multiple routers using a playbook. I also learned how to us ios_config to configure routers and back up their running configurations to files, making networks management more efficient.
