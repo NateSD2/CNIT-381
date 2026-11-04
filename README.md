@@ -16,3 +16,7 @@ Called the GitHub REST API from Python to read my repo and create an issue.
 **Repo:** https://github.com/NateSD2/ip-plan-check
 ## Week 8: OSPF by Hand, Then Automated 
 What I did: configured OSPF manually, ran a provided playbook that automated it, and wrote my own playbook to back up the configs. What I learned is how Ansible can automate network configurations on multiple routers using a playbook. I also learned how to us ios_config to configure routers and back up their running configurations to files, making networks management more efficient.
+## Week 9: 
+Build a Network and Automated It End to End 
+What I built: a CML topology (2 routers, a switch, and an Ubuntu control node), bootstrapped the devices by hand, then used Ansible to configure loopbacks, EIGRP, a login banner, and to back up all device. 
+What I learned: I learned how to build and configure a multi-device network using Cisco Modeling Labs (CML) and automate network configurations using Ansible. I gained experience with YAML playbooks, inventory files, SSH connectivity, and Cisco IOS modules. I also learned how to automate repetitive tasks such as configuring loopback interfaces, enabling EIGRP routing, applying login banners, and backing up device configurations.
